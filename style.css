@@ -763,3 +763,39 @@ option{
  
 
  /* ENDSECTION7-8 */
+ @media(max-width: 768px ){
+ .menu nav  {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top:60px ;
+    right:10px ;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+    z-index: 1000;
+
+ }
+ .hero{
+    flex-direction: column;
+ }
+ .hero .content{
+    margin: 0;
+    padding: 40px;
+ }
+ .navbar .nav-list{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top:60px ;
+    right:10px ;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+    z-index: 1000;
+ }
+ }
+
+    
